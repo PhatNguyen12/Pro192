@@ -67,10 +67,10 @@ class Main {
                 u.remove(xCode);
                 u.display();
                 break;
-        case 8: System.out.print("Enter file name (b = book.txt): ");
+        case 8: System.out.print("Enter file name (p = phat.txt): ");
                 fname = sc.nextLine();
-                if(fname.trim().equalsIgnoreCase("b")) 
-                    fname = "book.txt";
+                if(fname.trim().equalsIgnoreCase("p")) 
+                    fname = "phat.txt";
                 u.loadFile(fname);
                 break;
         default:
